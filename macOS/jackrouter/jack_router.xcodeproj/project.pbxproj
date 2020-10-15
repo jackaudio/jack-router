@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089C1680FE841241C02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		4B0124F709D2DED3004604C4 /* TJackClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA722CD04EA14C600053105 /* TJackClient.h */; };
+		4B0124F809D2DED3004604C4 /* IOAudioLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402DE04ED269100053105 /* IOAudioLib.h */; };
+		4B0124F909D2DED3004604C4 /* IOAudioDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402DF04ED269100053105 /* IOAudioDefines.h */; };
+		4B0124FA09D2DED3004604C4 /* IOAudioTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E004ED269100053105 /* IOAudioTypes.h */; };
+		4B0124FB09D2DED3004604C4 /* HostTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E404ED2C6000053105 /* HostTime.h */; };
+		4B0124FC09D2DED3004604C4 /* CoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E504ED2C6000053105 /* CoreAudio.h */; };
+		4B0124FD09D2DED3004604C4 /* AudioDriverPlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E604ED2C6000053105 /* AudioDriverPlugIn.h */; };
+		4B0124FE09D2DED3004604C4 /* AudioHardwarePlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E704ED2C6000053105 /* AudioHardwarePlugIn.h */; };
+		4B0124FF09D2DED3004604C4 /* CoreAudioTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E804ED2C6000053105 /* CoreAudioTypes.h */; };
+		4B01250009D2DED3004604C4 /* bequite.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CF85190505FC4300B94C9A /* bequite.h */; };
+		4B01250109D2DED3004604C4 /* procinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CF851B0505FC4300B94C9A /* procinfo.h */; };
+		4B01250209D2DED3004604C4 /* MIDIServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B94D97E05B92D7700AFC882 /* MIDIServices.h */; };
+		4B01250309D2DED3004604C4 /* MIDISetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B94D97F05B92D7700AFC882 /* MIDISetup.h */; };
+		4B01250409D2DED3004604C4 /* MIDIThruConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B94D98005B92D7700AFC882 /* MIDIThruConnection.h */; };
+		4B01250609D2DED3004604C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		4B01250809D2DED3004604C4 /* bequite.c in Sources */ = {isa = PBXBuildFile; fileRef = B2CF85180505FC4300B94C9A /* bequite.c */; };
+		4B01250909D2DED3004604C4 /* procinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = B2CF851A0505FC4300B94C9A /* procinfo.c */; };
+		4B01250A09D2DED3004604C4 /* JackRouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B61EDA405BFF2FC0093DF43 /* JackRouter.cpp */; };
+		4B01250B09D2DED3004604C4 /* TJackClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA722CF04EA14C900053105 /* TJackClient.cpp */; };
+		4B01250D09D2DED3004604C4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCFE50A04CFE4B100A8650F /* CoreAudio.framework */; };
+		4B01250E09D2DED3004604C4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		4B01250F09D2DED3004604C4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF85200505FCF600B94C9A /* Carbon.framework */; };
+		4B01251209D2DED3004604C4 /* BlackList.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B9C283E07C38F8D001C7A1E /* BlackList.txt */; };
+		4B50036509E517F900AD1985 /* Info-JackRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B50036409E517F900AD1985 /* Info-JackRouter.plist */; };
+		4B61EDA505BFF2FC0093DF43 /* JackRouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B61EDA405BFF2FC0093DF43 /* JackRouter.cpp */; };
+		4B94D98105B92D7700AFC882 /* MIDIServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B94D97E05B92D7700AFC882 /* MIDIServices.h */; };
+		4B94D98205B92D7700AFC882 /* MIDISetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B94D97F05B92D7700AFC882 /* MIDISetup.h */; };
+		4B94D98305B92D7700AFC882 /* MIDIThruConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B94D98005B92D7700AFC882 /* MIDIThruConnection.h */; };
+		4B9C284007C38FA7001C7A1E /* BlackList.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B9C283E07C38F8D001C7A1E /* BlackList.txt */; };
+		4BA722CE04EA14C600053105 /* TJackClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA722CD04EA14C600053105 /* TJackClient.h */; };
+		4BC402E104ED269100053105 /* IOAudioLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402DE04ED269100053105 /* IOAudioLib.h */; };
+		4BC402E204ED269100053105 /* IOAudioDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402DF04ED269100053105 /* IOAudioDefines.h */; };
+		4BC402E304ED269100053105 /* IOAudioTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E004ED269100053105 /* IOAudioTypes.h */; };
+		4BC402EA04ED2C6000053105 /* HostTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E404ED2C6000053105 /* HostTime.h */; };
+		4BC402EB04ED2C6000053105 /* CoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E504ED2C6000053105 /* CoreAudio.h */; };
+		4BC402EC04ED2C6000053105 /* AudioDriverPlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E604ED2C6000053105 /* AudioDriverPlugIn.h */; };
+		4BC402ED04ED2C6000053105 /* AudioHardwarePlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E704ED2C6000053105 /* AudioHardwarePlugIn.h */; };
+		4BC402EE04ED2C6000053105 /* CoreAudioTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC402E804ED2C6000053105 /* CoreAudioTypes.h */; };
+		4BF0CB65084DBE630017AC16 /* TJackClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA722CF04EA14C900053105 /* TJackClient.cpp */; };
+		6BDF9F1A04DE970300000064 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCFE50A04CFE4B100A8650F /* CoreAudio.framework */; };
+		6BDF9F1B04DE971700000064 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		B2CF851C0505FC4300B94C9A /* bequite.c in Sources */ = {isa = PBXBuildFile; fileRef = B2CF85180505FC4300B94C9A /* bequite.c */; };
+		B2CF851D0505FC4300B94C9A /* bequite.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CF85190505FC4300B94C9A /* bequite.h */; };
+		B2CF851E0505FC4300B94C9A /* procinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = B2CF851A0505FC4300B94C9A /* procinfo.c */; };
+		B2CF851F0505FC4300B94C9A /* procinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CF851B0505FC4300B94C9A /* procinfo.h */; };
+		B2CF85210505FCF600B94C9A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF85200505FCF600B94C9A /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBundleTarget section */
+		089C1673FE841209C02AAC07 /* JackRouter */ = {
+			isa = PBXBundleTarget;
+			buildConfigurationList = 4B0124F109D2DED3004604C4 /* Build configuration list for PBXBundleTarget "JackRouter" */;
+			buildPhases = (
+				089C1674FE841209C02AAC07 /* Headers */,
+				089C1675FE841209C02AAC07 /* Resources */,
+				089C1676FE841209C02AAC07 /* Sources */,
+				089C1677FE841209C02AAC07 /* Frameworks */,
+				089C1679FE841209C02AAC07 /* Rez */,
+				4B9C283507C38E70001C7A1E /* CopyFiles */,
+				4B61EE0F05C019930093DF43 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JackRouter;
+			productInstallPath = "/Library/Audio/Plug-Ins/HAL";
+			productName = dummyaudioplug;
+			productReference = 014CEA3E0018CDD111CA2923 /* JackRouter.plugin */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>JackRouter</string>
+	<key>CFBundleGetInfoString</key>
+	<string>JackRouter 0.8.3, @2004-2006 Grame</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.grame.JackRouter</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>JackRouter</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>JackRouter</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.8.3</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>FAFCAFC3-BAE8-11D6-B4A8-00039315CD46</key>
+		<string>MyFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>F8BB1C28-BAE8-11D6-9C31-00039315CD46</key>
+		<array>
+			<string>FAFCAFC3-BAE8-11D6-B4A8-00039315CD46</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+/* End PBXBundleTarget section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B01251109D2DED3004604C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				4B01251209D2DED3004604C4 /* BlackList.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9C283507C38E70001C7A1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				4B9C284007C38FA7001C7A1E /* BlackList.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		014CEA3E0018CDD111CA2923 /* JackRouter.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = JackRouter.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		4B01251909D2DED3004604C4 /* JackRouter.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackRouter.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B50036409E517F900AD1985 /* Info-JackRouter.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "Info-JackRouter.plist"; sourceTree = SOURCE_ROOT; };
+		4B61EDA405BFF2FC0093DF43 /* JackRouter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = JackRouter.cpp; sourceTree = SOURCE_ROOT; };
+		4B94D97E05B92D7700AFC882 /* MIDIServices.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MIDIServices.h; path = /System/Library/Frameworks/CoreMIDI.framework/Versions/A/Headers/MIDIServices.h; sourceTree = "<absolute>"; };
+		4B94D97F05B92D7700AFC882 /* MIDISetup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MIDISetup.h; path = /System/Library/Frameworks/CoreMIDI.framework/Versions/A/Headers/MIDISetup.h; sourceTree = "<absolute>"; };
+		4B94D98005B92D7700AFC882 /* MIDIThruConnection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MIDIThruConnection.h; path = /System/Library/Frameworks/CoreMIDI.framework/Versions/A/Headers/MIDIThruConnection.h; sourceTree = "<absolute>"; };
+		4B9C283E07C38F8D001C7A1E /* BlackList.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = BlackList.txt; sourceTree = SOURCE_ROOT; };
+		4BA722CD04EA14C600053105 /* TJackClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TJackClient.h; sourceTree = SOURCE_ROOT; };
+		4BA722CF04EA14C900053105 /* TJackClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TJackClient.cpp; sourceTree = SOURCE_ROOT; };
+		4BC402DE04ED269100053105 /* IOAudioLib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IOAudioLib.h; path = /System/Library/Frameworks/IOKit.framework/Versions/A/Headers/audio/IOAudioLib.h; sourceTree = "<absolute>"; };
+		4BC402DF04ED269100053105 /* IOAudioDefines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IOAudioDefines.h; path = /System/Library/Frameworks/IOKit.framework/Versions/A/Headers/audio/IOAudioDefines.h; sourceTree = "<absolute>"; };
+		4BC402E004ED269100053105 /* IOAudioTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IOAudioTypes.h; path = /System/Library/Frameworks/IOKit.framework/Versions/A/Headers/audio/IOAudioTypes.h; sourceTree = "<absolute>"; };
+		4BC402E404ED2C6000053105 /* HostTime.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = HostTime.h; path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/Headers/HostTime.h; sourceTree = "<absolute>"; };
+		4BC402E504ED2C6000053105 /* CoreAudio.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CoreAudio.h; path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/Headers/CoreAudio.h; sourceTree = "<absolute>"; };
+		4BC402E604ED2C6000053105 /* AudioDriverPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AudioDriverPlugIn.h; path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/Headers/AudioDriverPlugIn.h; sourceTree = "<absolute>"; };
+		4BC402E704ED2C6000053105 /* AudioHardwarePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AudioHardwarePlugIn.h; path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/Headers/AudioHardwarePlugIn.h; sourceTree = "<absolute>"; };
+		4BC402E804ED2C6000053105 /* CoreAudioTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CoreAudioTypes.h; path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/Headers/CoreAudioTypes.h; sourceTree = "<absolute>"; };
+		4BC402E904ED2C6000053105 /* AudioHardware.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AudioHardware.h; path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/Headers/AudioHardware.h; sourceTree = "<absolute>"; };
+		6B72988F04D054E500D1CFAB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		6B9F593E04D95CAC00000064 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+		6BCFE50A04CFE4B100A8650F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		B2CF85180505FC4300B94C9A /* bequite.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = bequite.c; path = procinfo/bequite.c; sourceTree = "<group>"; };
+		B2CF85190505FC4300B94C9A /* bequite.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = bequite.h; path = procinfo/bequite.h; sourceTree = "<group>"; };
+		B2CF851A0505FC4300B94C9A /* procinfo.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = procinfo.c; path = procinfo/procinfo.c; sourceTree = "<group>"; };
+		B2CF851B0505FC4300B94C9A /* procinfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = procinfo.h; path = procinfo/procinfo.h; sourceTree = "<group>"; };
+		B2CF85200505FCF600B94C9A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089C1677FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDF9F1A04DE970300000064 /* CoreAudio.framework in Frameworks */,
+				6BDF9F1B04DE971700000064 /* CoreFoundation.framework in Frameworks */,
+				B2CF85210505FCF600B94C9A /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B01250C09D2DED3004604C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B01250D09D2DED3004604C4 /* CoreAudio.framework in Frameworks */,
+				4B01250E09D2DED3004604C4 /* CoreFoundation.framework in Frameworks */,
+				4B01250F09D2DED3004604C4 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* dummyaudioplug */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C283E07C38F8D001C7A1E /* BlackList.txt */,
+				B2CF85150505FC1A00B94C9A /* Include */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				4B50036409E517F900AD1985 /* Info-JackRouter.plist */,
+			);
+			name = dummyaudioplug;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF85200505FCF600B94C9A /* Carbon.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+				6BCFE50A04CFE4B100A8650F /* CoreAudio.framework */,
+				6B72988F04D054E500D1CFAB /* IOKit.framework */,
+				6B9F593E04D95CAC00000064 /* Kernel.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF85170505FC3400B94C9A /* procinfo */,
+				4B61EDA405BFF2FC0093DF43 /* JackRouter.cpp */,
+				4BA722CD04EA14C600053105 /* TJackClient.h */,
+				4BA722CF04EA14C900053105 /* TJackClient.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014CEA3E0018CDD111CA2923 /* JackRouter.plugin */,
+				4B01251909D2DED3004604C4 /* JackRouter.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CF85150505FC1A00B94C9A /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4B94D97E05B92D7700AFC882 /* MIDIServices.h */,
+				4B94D97F05B92D7700AFC882 /* MIDISetup.h */,
+				4B94D98005B92D7700AFC882 /* MIDIThruConnection.h */,
+				4BC402E404ED2C6000053105 /* HostTime.h */,
+				4BC402E504ED2C6000053105 /* CoreAudio.h */,
+				4BC402E604ED2C6000053105 /* AudioDriverPlugIn.h */,
+				4BC402E704ED2C6000053105 /* AudioHardwarePlugIn.h */,
+				4BC402E804ED2C6000053105 /* CoreAudioTypes.h */,
+				4BC402E904ED2C6000053105 /* AudioHardware.h */,
+				4BC402DE04ED269100053105 /* IOAudioLib.h */,
+				4BC402DF04ED269100053105 /* IOAudioDefines.h */,
+				4BC402E004ED269100053105 /* IOAudioTypes.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		B2CF85170505FC3400B94C9A /* procinfo */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF85180505FC4300B94C9A /* bequite.c */,
+				B2CF85190505FC4300B94C9A /* bequite.h */,
+				B2CF851A0505FC4300B94C9A /* procinfo.c */,
+				B2CF851B0505FC4300B94C9A /* procinfo.h */,
+			);
+			name = procinfo;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		089C1674FE841209C02AAC07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA722CE04EA14C600053105 /* TJackClient.h in Headers */,
+				4BC402E104ED269100053105 /* IOAudioLib.h in Headers */,
+				4BC402E204ED269100053105 /* IOAudioDefines.h in Headers */,
+				4BC402E304ED269100053105 /* IOAudioTypes.h in Headers */,
+				4BC402EA04ED2C6000053105 /* HostTime.h in Headers */,
+				4BC402EB04ED2C6000053105 /* CoreAudio.h in Headers */,
+				4BC402EC04ED2C6000053105 /* AudioDriverPlugIn.h in Headers */,
+				4BC402ED04ED2C6000053105 /* AudioHardwarePlugIn.h in Headers */,
+				4BC402EE04ED2C6000053105 /* CoreAudioTypes.h in Headers */,
+				B2CF851D0505FC4300B94C9A /* bequite.h in Headers */,
+				B2CF851F0505FC4300B94C9A /* procinfo.h in Headers */,
+				4B94D98105B92D7700AFC882 /* MIDIServices.h in Headers */,
+				4B94D98205B92D7700AFC882 /* MIDISetup.h in Headers */,
+				4B94D98305B92D7700AFC882 /* MIDIThruConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0124F609D2DED3004604C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0124F709D2DED3004604C4 /* TJackClient.h in Headers */,
+				4B0124F809D2DED3004604C4 /* IOAudioLib.h in Headers */,
+				4B0124F909D2DED3004604C4 /* IOAudioDefines.h in Headers */,
+				4B0124FA09D2DED3004604C4 /* IOAudioTypes.h in Headers */,
+				4B0124FB09D2DED3004604C4 /* HostTime.h in Headers */,
+				4B0124FC09D2DED3004604C4 /* CoreAudio.h in Headers */,
+				4B0124FD09D2DED3004604C4 /* AudioDriverPlugIn.h in Headers */,
+				4B0124FE09D2DED3004604C4 /* AudioHardwarePlugIn.h in Headers */,
+				4B0124FF09D2DED3004604C4 /* CoreAudioTypes.h in Headers */,
+				4B01250009D2DED3004604C4 /* bequite.h in Headers */,
+				4B01250109D2DED3004604C4 /* procinfo.h in Headers */,
+				4B01250209D2DED3004604C4 /* MIDIServices.h in Headers */,
+				4B01250309D2DED3004604C4 /* MIDISetup.h in Headers */,
+				4B01250409D2DED3004604C4 /* MIDIThruConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B0124F509D2DED3004604C4 /* JackRouter Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B01251409D2DED3004604C4 /* Build configuration list for PBXNativeTarget "JackRouter Universal" */;
+			buildPhases = (
+				4B0124F609D2DED3004604C4 /* Headers */,
+				4B01250509D2DED3004604C4 /* Resources */,
+				4B01250709D2DED3004604C4 /* Sources */,
+				4B01250C09D2DED3004604C4 /* Frameworks */,
+				4B01251009D2DED3004604C4 /* Rez */,
+				4B01251109D2DED3004604C4 /* CopyFiles */,
+				4B01251309D2DED3004604C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JackRouter Universal";
+			productInstallPath = "/Library/Audio/Plug-Ins/HAL";
+			productName = dummyaudioplug;
+			productReference = 4B01251909D2DED3004604C4 /* JackRouter.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B01251B09D2DED5004604C4 /* Build configuration list for PBXProject "jack_router" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* dummyaudioplug */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089C1673FE841209C02AAC07 /* JackRouter */,
+				4B0124F509D2DED3004604C4 /* JackRouter Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089C1675FE841209C02AAC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C1680FE841241C02AAC07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B01250509D2DED3004604C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B01250609D2DED3004604C4 /* InfoPlist.strings in Resources */,
+				4B50036509E517F900AD1985 /* Info-JackRouter.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		089C1679FE841209C02AAC07 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B01251009D2DED3004604C4 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B01251309D2DED3004604C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r build/Deployment/JackRouter.plugin /Library/Audio/Plug-Ins/HAL/  ";
+		};
+		4B61EE0F05C019930093DF43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r build/Deployment/JackRouter.plugin /Library/Audio/Plug-Ins/HAL/  ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089C1676FE841209C02AAC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CF851C0505FC4300B94C9A /* bequite.c in Sources */,
+				B2CF851E0505FC4300B94C9A /* procinfo.c in Sources */,
+				4B61EDA505BFF2FC0093DF43 /* JackRouter.cpp in Sources */,
+				4BF0CB65084DBE630017AC16 /* TJackClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B01250709D2DED3004604C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B01250809D2DED3004604C4 /* bequite.c in Sources */,
+				4B01250909D2DED3004604C4 /* procinfo.c in Sources */,
+				4B01250A09D2DED3004604C4 /* JackRouter.cpp in Sources */,
+				4B01250B09D2DED3004604C4 /* TJackClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B0124F209D2DED3004604C4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/HAL";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Jack,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JackRouter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4B0124F309D2DED3004604C4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/HAL";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-03";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Jack,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JackRouter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		4B0124F409D2DED3004604C4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/HAL";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Jack,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JackRouter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		4B01251509D2DED3004604C4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				INFOPLIST_FILE = "Info-JackRouter.plist";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/HAL";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Jack,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JackRouter;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4B01251609D2DED3004604C4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				INFOPLIST_FILE = "Info-JackRouter.plist";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/HAL";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-ljack",
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JackRouter;
+				SDKROOT = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		4B01251709D2DED3004604C4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				INFOPLIST_FILE = "Info-JackRouter.plist";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/HAL";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Jack,
+					"-framework",
+					CoreFoundation,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JackRouter;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		4B01251C09D2DED5004604C4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		4B01251D09D2DED5004604C4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		4B01251E09D2DED5004604C4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0124F109D2DED3004604C4 /* Build configuration list for PBXBundleTarget "JackRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0124F209D2DED3004604C4 /* Development */,
+				4B0124F309D2DED3004604C4 /* Deployment */,
+				4B0124F409D2DED3004604C4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4B01251409D2DED3004604C4 /* Build configuration list for PBXNativeTarget "JackRouter Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B01251509D2DED3004604C4 /* Development */,
+				4B01251609D2DED3004604C4 /* Deployment */,
+				4B01251709D2DED3004604C4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4B01251B09D2DED5004604C4 /* Build configuration list for PBXProject "jack_router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B01251C09D2DED5004604C4 /* Development */,
+				4B01251D09D2DED5004604C4 /* Deployment */,
+				4B01251E09D2DED5004604C4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

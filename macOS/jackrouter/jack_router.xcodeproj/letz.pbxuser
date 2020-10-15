@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 4B0124F509D2DED3004604C4 /* JackRouter Universal */;
+		breakpointsGroup = 4B74D6EC0A45F344001A28BA /* XCBreakpointsBucket */;
+		codeSenseManager = 4B40DF9E09E960F0002363A7 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					320,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					140,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 218572585;
+			PBXWorkspaceStateSaveDate = 218572585;
+		};
+		perUserProjectItems = {
+			4B1970930D0727A8001B45E9 /* PBXTextBookmark */ = 4B1970930D0727A8001B45E9 /* PBXTextBookmark */;
+			4B1970940D0727A8001B45E9 /* PBXTextBookmark */ = 4B1970940D0727A8001B45E9 /* PBXTextBookmark */;
+			4B1970950D0727A8001B45E9 /* PBXTextBookmark */ = 4B1970950D0727A8001B45E9 /* PBXTextBookmark */;
+			4BECF1030CECEDA30001847E /* PBXTextBookmark */ = 4BECF1030CECEDA30001847E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4B40DF9D09E960F0002363A7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1673FE841209C02AAC07 /* JackRouter */ = {
+		activeExec = 0;
+	};
+	4B0124F509D2DED3004604C4 /* JackRouter Universal */ = {
+		activeExec = 0;
+	};
+	4B1970930D0727A8001B45E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BA722CF04EA14C900053105 /* TJackClient.cpp */;
+		name = CFNotificationCenterAddObserver;
+		rLen = 31;
+		rLoc = 20715;
+		rType = 0;
+		vrLen = 2441;
+		vrLoc = 20128;
+	};
+	4B1970940D0727A8001B45E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BA722CF04EA14C900053105 /* TJackClient.cpp */;
+		name = "TJackClient.cpp: 853";
+		rLen = 4444;
+		rLoc = 34966;
+		rType = 0;
+		vrLen = 2043;
+		vrLoc = 30906;
+	};
+	4B1970950D0727A8001B45E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B1970960D0727A8001B45E9 /* audioengine.cc */;
+		name = "options, &status,";
+		rLen = 18;
+		rLoc = 22136;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 21394;
+	};
+	4B1970960D0727A8001B45E9 /* audioengine.cc */ = {
+		isa = PBXFileReference;
+		name = audioengine.cc;
+		path = "/Volumes/Documents/ardour-svn/branches/panners/libs/ardour/audioengine.cc";
+		sourceTree = "<absolute>";
+	};
+	4B40DF9D09E960F0002363A7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	4B40DF9E09E960F0002363A7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4B74D6EC0A45F344001A28BA /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	4BA722CD04EA14C600053105 /* TJackClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 4396}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {999, 744}}";
+			sepNavWindowFrame = "{{15, 60}, {1038, 873}}";
+		};
+	};
+	4BA722CF04EA14C900053105 /* TJackClient.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1256, 52178}}";
+			sepNavSelRange = "{34966, 4444}";
+			sepNavVisRect = "{{0, 10533}, {999, 744}}";
+			sepNavWindowFrame = "{{324, 63}, {1038, 873}}";
+		};
+	};
+	4BC402E804ED2C6000053105 /* CoreAudioTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1310, 14364}}";
+			sepNavSelRange = "{1898, 21}";
+			sepNavVisRect = "{{0, 594}, {936, 591}}";
+			sepNavWindowFrame = "{{38, 192}, {975, 720}}";
+		};
+	};
+	4BC402E904ED2C6000053105 /* AudioHardware.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 38794}}";
+			sepNavSelRange = "{87380, 37}";
+			sepNavVisRect = "{{0, 23984}, {936, 591}}";
+			sepNavWindowFrame = "{{415, 195}, {975, 720}}";
+		};
+	};
+	4BECF1030CECEDA30001847E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BECF1040CECEDA30001847E /* audioengine.cc */;
+		name = "options, &status,";
+		rLen = 18;
+		rLoc = 22136;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 21394;
+	};
+	4BECF1040CECEDA30001847E /* audioengine.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = audioengine.cc;
+		path = "/Volumes/Documents/ardour-svn/branches/panners/libs/ardour/audioengine.cc";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 18256}}";
+			sepNavSelRange = "{22136, 18}";
+			sepNavVisRect = "{{0, 14462}, {964, 779}}";
+			sepNavWindowFrame = "{{579, 30}, {1003, 908}}";
+		};
+	};
+}

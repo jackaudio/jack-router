@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeTarget = 089C1673FE841209C02AAC07 /* jack */;
+		codeSenseManager = 4BEFBAF809FB666E007AF7CE /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					116,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					45.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					10,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345066635;
+			PBXWorkspaceStateSaveDate = 345066635;
+		};
+		perUserProjectItems = {
+			4BE0470C14914C96003A28F5 /* PBXBookmark */ = 4BE0470C14914C96003A28F5 /* PBXBookmark */;
+			4BE0470D14914C97003A28F5 /* PBXTextBookmark */ = 4BE0470D14914C97003A28F5 /* PBXTextBookmark */;
+			4BE0471614914CC9003A28F5 /* PBXTextBookmark */ = 4BE0471614914CC9003A28F5 /* PBXTextBookmark */;
+			4BE0471714914CC9003A28F5 /* PBXTextBookmark */ = 4BE0471714914CC9003A28F5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4BEFBAF709FB666E007AF7CE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1673FE841209C02AAC07 /* jack */ = {
+		activeExec = 0;
+	};
+	4B0FDCAE0C68B0D000FB2E71 /* jack Universal */ = {
+		activeExec = 0;
+	};
+	4BDBE19C0F73C3A600AA9C82 /* jack Universal 32/64 */ = {
+		activeExec = 0;
+	};
+	4BE0470C14914C96003A28F5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B228581706F08FD400BEF144 /* JARInsert.cpp */;
+	};
+	4BE0470D14914C97003A28F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B228581506F08FD400BEF144 /* BSizeAlign.cpp */;
+		name = "BSizeAlign.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	4BE0471614914CC9003A28F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B228581506F08FD400BEF144 /* BSizeAlign.cpp */;
+		name = "BSizeAlign.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	4BE0471714914CC9003A28F5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B228581706F08FD400BEF144 /* JARInsert.cpp */;
+		name = "JARInsert.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1540;
+		vrLoc = 1219;
+	};
+	4BEFBAF709FB666E007AF7CE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	4BEFBAF809FB666E007AF7CE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B21B4A5C06F0886500112E6A /* AUResources.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 2086}}";
+			sepNavSelRange = "{3138, 7}";
+			sepNavVisRect = "{{0, 462}, {932, 547}}";
+			sepNavWindowFrame = "{{375, -38}, {971, 676}}";
+		};
+	};
+	B228581506F08FD400BEF144 /* BSizeAlign.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {408, 1540}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 462}";
+		};
+	};
+	B228581706F08FD400BEF144 /* JARInsert.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 6846}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1219, 1540}";
+			sepNavVisRect = "{{0, 4094}, {932, 547}}";
+			sepNavWindowFrame = "{{399, 87}, {1009, 780}}";
+		};
+	};
+	B228581806F08FD400BEF144 /* JARInsert.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 1316}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 769}, {932, 547}}";
+			sepNavWindowFrame = "{{38, 236}, {971, 676}}";
+		};
+	};
+	B287674704AAADC900A35172 /* JackAUGUI.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 1288}}";
+			sepNavSelRange = "{2218, 3}";
+			sepNavVisRect = "{{0, 741}, {932, 547}}";
+			sepNavWindowFrame = "{{15, 257}, {971, 676}}";
+		};
+	};
+	F500946803772D2101000103 /* JackAU.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 1302}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 755}, {932, 547}}";
+			sepNavWindowFrame = "{{153, 131}, {971, 676}}";
+		};
+	};
+	F500946903772D2101000103 /* JackAU.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 2730}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 2183}, {932, 547}}";
+			sepNavWindowFrame = "{{130, 152}, {971, 676}}";
+		};
+	};
+	F500952C0377327001000103 /* JackAU.exp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 547}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {932, 547}}";
+			sepNavWindowFrame = "{{107, 173}, {971, 676}}";
+		};
+	};
+	F500952E0377338B01000103 /* JackAU.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 728}}";
+			sepNavSelRange = "{1519, 0}";
+			sepNavVisRect = "{{0, 181}, {932, 547}}";
+			sepNavWindowFrame = "{{371, 255}, {971, 676}}";
+		};
+	};
+}

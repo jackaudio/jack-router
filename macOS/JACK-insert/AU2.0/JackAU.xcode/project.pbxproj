@@ -1,0 +1,1359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA3E0018CDD111CA2923 = {
+			explicitFileType = wrapper.cfbundle;
+			isa = PBXFileReference;
+			path = "JACK-insert.component";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		014CEA3F0018CDD111CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA400018CDD111CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA3F0018CDD111CA2923,
+				014CEA400018CDD111CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				089C1673FE841209C02AAC07,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				B228583706F08FDE00BEF144,
+				08FB77AFFE84173DC02AAC07,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB6FE9D52B211CA2CBB,
+			);
+			isa = PBXGroup;
+			name = pingpong;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				F50095300377357701000103,
+				F50094AB0377301301000103,
+				B287674904AAAEA200A35172,
+				B287677D04AAB07B00A35172,
+				B287677F04AAB08800A35172,
+				B287678004AAB08800A35172,
+				B2A8609104AD914300C2F34A,
+				B225B98005260A67001F8BAF,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1673FE841209C02AAC07 = {
+			buildPhases = (
+				F5F49F170377BA6D01000103,
+				089C1674FE841209C02AAC07,
+				089C1675FE841209C02AAC07,
+				089C1676FE841209C02AAC07,
+				089C1677FE841209C02AAC07,
+				089C1679FE841209C02AAC07,
+			);
+			buildSettings = {
+				EXPORTED_SYMBOLS_FILE = JackAU.exp;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "~/Library/Audio/Plug-Ins/Components";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-I /Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
+				PRODUCT_NAME = "JACK-insert";
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = component;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = jack;
+			productInstallPath = "/Users/os/Library/Audio/Plug-Ins/Components";
+			productName = pingpong;
+			productReference = 014CEA3E0018CDD111CA2923;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>JACK-insert</string>
+	<key>CFBundleGetInfoString</key>
+	<string>(c) 04-05 Johnny Petrantoni, jackosx.com.</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>gpl.jackosx.com.JACK-insert</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>JACK-insert</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.6</string>
+	<key>CFBundleSignature</key>
+	<string>ElCa</string>
+	<key>CFBundleVersion</key>
+	<string>1.6</string>
+</dict>
+</plist>
+";
+		};
+		089C1674FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F500946A03772D2101000103,
+				B21B4A7C06F0886500112E6A,
+				B21B4A7E06F0886500112E6A,
+				B21B4A8006F0886500112E6A,
+				B21B4A8206F0886500112E6A,
+				B21B4A8506F0886500112E6A,
+				B21B4A8706F0886500112E6A,
+				B21B4A8906F0886500112E6A,
+				B21B4A8B06F0886500112E6A,
+				B21B4A8E06F0886500112E6A,
+				B21B4A9006F0886500112E6A,
+				B21B4A9206F0886500112E6A,
+				B21B4A9306F0886500112E6A,
+				B21B4A9406F0886500112E6A,
+				B21B4A9606F0886500112E6A,
+				B21B4A9806F0886500112E6A,
+				B21B4A9A06F0886500112E6A,
+				B21B4A9B06F0886500112E6A,
+				B21B4A9C06F0886500112E6A,
+				B21B4A9D06F0886500112E6A,
+				B21B4AAC06F088C600112E6A,
+				B21B4AAD06F088C600112E6A,
+				B21B4AB606F088EE00112E6A,
+				B21B4AE006F0897E00112E6A,
+				B21B4AE106F0897E00112E6A,
+				B21B4AE206F0897E00112E6A,
+				B21B4B2506F08A4300112E6A,
+				B228581C06F08FD400BEF144,
+				B228581E06F08FD400BEF144,
+				B228582006F08FD400BEF144,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1675FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1676FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F500946B03772D2101000103,
+				F500952D0377327001000103,
+				B287678304AAB1C600A35172,
+				B21B4A7B06F0886500112E6A,
+				B21B4A7D06F0886500112E6A,
+				B21B4A7F06F0886500112E6A,
+				B21B4A8106F0886500112E6A,
+				B21B4A8406F0886500112E6A,
+				B21B4A8606F0886500112E6A,
+				B21B4A8806F0886500112E6A,
+				B21B4A8A06F0886500112E6A,
+				B21B4A8C06F0886500112E6A,
+				B21B4A8D06F0886500112E6A,
+				B21B4A8F06F0886500112E6A,
+				B21B4A9106F0886500112E6A,
+				B21B4A9506F0886500112E6A,
+				B21B4A9706F0886500112E6A,
+				B21B4A9906F0886500112E6A,
+				B21B4AF206F089D200112E6A,
+				B21B4B0C06F089FB00112E6A,
+				B21B4B1806F08A2100112E6A,
+				B228581B06F08FD400BEF144,
+				B228581D06F08FD400BEF144,
+				B228581F06F08FD400BEF144,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1677FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F50095410377357701000103,
+				F53DDADF03787C9501000103,
+				B287674A04AAAEA200A35172,
+				B287677E04AAB07B00A35172,
+				B287678104AAB08800A35172,
+				B287678204AAB08800A35172,
+				B2A8609204AD914300C2F34A,
+				B225B98105260A67001F8BAF,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1679FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F500952F0377338B01000103,
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				B21B4AA906F088C600112E6A,
+				B21B4A5206F0886500112E6A,
+				F5F49F150377B9B101000103,
+				F500946803772D2101000103,
+				F500946903772D2101000103,
+				B287674704AAADC900A35172,
+				F500952E0377338B01000103,
+				F500952C0377327001000103,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//190
+//191
+//192
+//193
+//194
+		19C28FB6FE9D52B211CA2CBB = {
+			children = (
+				014CEA3E0018CDD111CA2923,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//B20
+//B21
+//B22
+//B23
+//B24
+		B21B4A5206F0886500112E6A = {
+			children = (
+				B21B4A5306F0886500112E6A,
+				B21B4A6106F0886500112E6A,
+				B21B4A6D06F0886500112E6A,
+				B21B4A6E06F0886500112E6A,
+				B21B4A7006F0886500112E6A,
+				B21B4A7306F0886500112E6A,
+			);
+			isa = PBXGroup;
+			name = AUPublic;
+			path = /Developer/Examples/CoreAudio/AudioUnits/AUPublic;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B21B4A5306F0886500112E6A = {
+			children = (
+				B21B4A5406F0886500112E6A,
+				B21B4A5506F0886500112E6A,
+				B21B4A5606F0886500112E6A,
+				B21B4A5706F0886500112E6A,
+				B21B4A5806F0886500112E6A,
+				B21B4A5906F0886500112E6A,
+				B21B4A5A06F0886500112E6A,
+				B21B4A5B06F0886500112E6A,
+				B21B4A5C06F0886500112E6A,
+				B21B4A5D06F0886500112E6A,
+				B21B4A5E06F0886500112E6A,
+				B21B4A5F06F0886500112E6A,
+				B21B4A6006F0886500112E6A,
+			);
+			isa = PBXGroup;
+			path = AUBase;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5406F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUBase.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5506F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUBase.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5606F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUDispatch.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5706F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUDispatch.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5806F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUInputElement.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5906F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUInputElement.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5A06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUOutputElement.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5B06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUOutputElement.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5C06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.rez;
+			path = AUResources.r;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5D06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUScopeElement.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5E06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUScopeElement.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A5F06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ComponentBase.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6006F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = ComponentBase.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6106F0886500112E6A = {
+			children = (
+				B21B4A6206F0886500112E6A,
+				B21B4A6306F0886500112E6A,
+				B21B4A6406F0886500112E6A,
+				B21B4A6506F0886500112E6A,
+				B21B4A6606F0886500112E6A,
+				B21B4A6706F0886500112E6A,
+				B21B4A6806F0886500112E6A,
+				B21B4A6906F0886500112E6A,
+				B21B4A6A06F0886500112E6A,
+				B21B4A6B06F0886500112E6A,
+				B21B4A6C06F0886500112E6A,
+			);
+			isa = PBXGroup;
+			path = AUCarbonViewBase;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6206F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUCarbonViewBase.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6306F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUCarbonViewBase.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6406F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUCarbonViewControl.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6506F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUCarbonViewControl.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6606F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUCarbonViewDispatch.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6706F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUControlGroup.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6806F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUControlGroup.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6906F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUVParameter.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6A06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUVParameter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6B06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CarbonEventHandler.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6C06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CarbonEventHandler.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6D06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUPropertiesPostPantherAdditions.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6E06F0886500112E6A = {
+			children = (
+				B21B4A6F06F0886500112E6A,
+			);
+			isa = PBXGroup;
+			path = AUViewBase;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A6F06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUViewLocalizedStringKeys.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7006F0886500112E6A = {
+			children = (
+				B21B4A7106F0886500112E6A,
+				B21B4A7206F0886500112E6A,
+			);
+			isa = PBXGroup;
+			path = OtherBases;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7106F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUEffectBase.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7206F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUEffectBase.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7306F0886500112E6A = {
+			children = (
+				B21B4A7406F0886500112E6A,
+				B21B4A7506F0886500112E6A,
+				B21B4A7606F0886500112E6A,
+				B21B4A7706F0886500112E6A,
+				B21B4A7806F0886500112E6A,
+				B21B4A7906F0886500112E6A,
+				B21B4A7A06F0886500112E6A,
+			);
+			isa = PBXGroup;
+			path = Utility;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7406F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUBuffer.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7506F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUBuffer.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7606F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = AUDebugDispatcher.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7706F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUDebugDispatcher.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7806F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUInputFormatConverter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7906F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUSilentTimeout.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7A06F0886500112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AUTimestampGenerator.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4A7B06F0886500112E6A = {
+			fileRef = B21B4A5406F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A7C06F0886500112E6A = {
+			fileRef = B21B4A5506F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A7D06F0886500112E6A = {
+			fileRef = B21B4A5606F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A7E06F0886500112E6A = {
+			fileRef = B21B4A5706F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A7F06F0886500112E6A = {
+			fileRef = B21B4A5806F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8006F0886500112E6A = {
+			fileRef = B21B4A5906F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8106F0886500112E6A = {
+			fileRef = B21B4A5A06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8206F0886500112E6A = {
+			fileRef = B21B4A5B06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8406F0886500112E6A = {
+			fileRef = B21B4A5D06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8506F0886500112E6A = {
+			fileRef = B21B4A5E06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8606F0886500112E6A = {
+			fileRef = B21B4A5F06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8706F0886500112E6A = {
+			fileRef = B21B4A6006F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8806F0886500112E6A = {
+			fileRef = B21B4A6206F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8906F0886500112E6A = {
+			fileRef = B21B4A6306F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8A06F0886500112E6A = {
+			fileRef = B21B4A6406F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8B06F0886500112E6A = {
+			fileRef = B21B4A6506F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8C06F0886500112E6A = {
+			fileRef = B21B4A6606F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8D06F0886500112E6A = {
+			fileRef = B21B4A6706F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8E06F0886500112E6A = {
+			fileRef = B21B4A6806F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A8F06F0886500112E6A = {
+			fileRef = B21B4A6906F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9006F0886500112E6A = {
+			fileRef = B21B4A6A06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9106F0886500112E6A = {
+			fileRef = B21B4A6B06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9206F0886500112E6A = {
+			fileRef = B21B4A6C06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9306F0886500112E6A = {
+			fileRef = B21B4A6D06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9406F0886500112E6A = {
+			fileRef = B21B4A6F06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9506F0886500112E6A = {
+			fileRef = B21B4A7106F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9606F0886500112E6A = {
+			fileRef = B21B4A7206F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9706F0886500112E6A = {
+			fileRef = B21B4A7406F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9806F0886500112E6A = {
+			fileRef = B21B4A7506F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9906F0886500112E6A = {
+			fileRef = B21B4A7606F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9A06F0886500112E6A = {
+			fileRef = B21B4A7706F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9B06F0886500112E6A = {
+			fileRef = B21B4A7806F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9C06F0886500112E6A = {
+			fileRef = B21B4A7906F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4A9D06F0886500112E6A = {
+			fileRef = B21B4A7A06F0886500112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4AA906F088C600112E6A = {
+			children = (
+				B21B4B2406F08A4300112E6A,
+				B21B4B1706F08A2100112E6A,
+				B21B4B0B06F089FB00112E6A,
+				B21B4AF106F089D200112E6A,
+				B21B4ADD06F0897E00112E6A,
+				B21B4ADE06F0897E00112E6A,
+				B21B4ADF06F0897E00112E6A,
+				B21B4AB506F088EE00112E6A,
+				B21B4AAA06F088C600112E6A,
+				B21B4AAB06F088C600112E6A,
+			);
+			isa = PBXGroup;
+			name = PublicUtility;
+			path = /Developer/Examples/CoreAudio/PublicUtility;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B21B4AAA06F088C600112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CADebugMacros.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4AAB06F088C600112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAStreamBasicDescription.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4AAC06F088C600112E6A = {
+			fileRef = B21B4AAA06F088C600112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4AAD06F088C600112E6A = {
+			fileRef = B21B4AAB06F088C600112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4AB506F088EE00112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAAUParameter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4AB606F088EE00112E6A = {
+			fileRef = B21B4AB506F088EE00112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4ADD06F0897E00112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAAudioChannelLayout.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4ADE06F0897E00112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAHostTimeBase.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4ADF06F0897E00112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAReferenceCounted.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4AE006F0897E00112E6A = {
+			fileRef = B21B4ADD06F0897E00112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4AE106F0897E00112E6A = {
+			fileRef = B21B4ADE06F0897E00112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4AE206F0897E00112E6A = {
+			fileRef = B21B4ADF06F0897E00112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4AF106F089D200112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAAUParameter.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4AF206F089D200112E6A = {
+			fileRef = B21B4AF106F089D200112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4B0B06F089FB00112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAAudioChannelLayout.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4B0C06F089FB00112E6A = {
+			fileRef = B21B4B0B06F089FB00112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4B1706F08A2100112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = CAStreamBasicDescription.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4B1806F08A2100112E6A = {
+			fileRef = B21B4B1706F08A2100112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B21B4B2406F08A4300112E6A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CAConditionalMacros.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B21B4B2506F08A4300112E6A = {
+			fileRef = B21B4B2406F08A4300112E6A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B225B98005260A67001F8BAF = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = /System/Library/Frameworks/CoreAudio.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B225B98105260A67001F8BAF = {
+			fileRef = B225B98005260A67001F8BAF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228581506F08FD400BEF144 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BSizeAlign.cpp;
+			path = ../JARInsert/BSizeAlign.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B228581606F08FD400BEF144 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BSizeAlign.h;
+			path = ../JARInsert/BSizeAlign.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B228581706F08FD400BEF144 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = JARInsert.cpp;
+			path = ../JARInsert/JARInsert.cpp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B228581806F08FD400BEF144 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JARInsert.h;
+			path = ../JARInsert/JARInsert.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B228581906F08FD400BEF144 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = ringbuffer.c;
+			path = ../JARInsert/ringbuffer.c;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B228581A06F08FD400BEF144 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ringbuffer.h;
+			path = ../JARInsert/ringbuffer.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		B228581B06F08FD400BEF144 = {
+			fileRef = B228581506F08FD400BEF144;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228581C06F08FD400BEF144 = {
+			fileRef = B228581606F08FD400BEF144;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228581D06F08FD400BEF144 = {
+			fileRef = B228581706F08FD400BEF144;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228581E06F08FD400BEF144 = {
+			fileRef = B228581806F08FD400BEF144;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228581F06F08FD400BEF144 = {
+			fileRef = B228581906F08FD400BEF144;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228582006F08FD400BEF144 = {
+			fileRef = B228581A06F08FD400BEF144;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B228583706F08FDE00BEF144 = {
+			children = (
+				B228581506F08FD400BEF144,
+				B228581606F08FD400BEF144,
+				B228581706F08FD400BEF144,
+				B228581806F08FD400BEF144,
+				B228581906F08FD400BEF144,
+				B228581A06F08FD400BEF144,
+			);
+			isa = PBXGroup;
+			name = JARInsertLIB;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B287674704AAADC900A35172 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = JackAUGUI.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B287674904AAAEA200A35172 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B287674A04AAAEA200A35172 = {
+			fileRef = B287674904AAAEA200A35172;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B287677D04AAB07B00A35172 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = /System/Library/Frameworks/AudioToolbox.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B287677E04AAB07B00A35172 = {
+			fileRef = B287677D04AAB07B00A35172;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B287677F04AAB08800A35172 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B287678004AAB08800A35172 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B287678104AAB08800A35172 = {
+			fileRef = B287677F04AAB08800A35172;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B287678204AAB08800A35172 = {
+			fileRef = B287678004AAB08800A35172;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B287678304AAB1C600A35172 = {
+			fileRef = B287674704AAADC900A35172;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B2A8609104AD914300C2F34A = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Jack.framework;
+			path = /Library/Frameworks/Jack.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B2A8609204AD914300C2F34A = {
+			fileRef = B2A8609104AD914300C2F34A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//B20
+//B21
+//B22
+//B23
+//B24
+//F50
+//F51
+//F52
+//F53
+//F54
+		F500946803772D2101000103 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = JackAU.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F500946903772D2101000103 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = JackAU.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F500946A03772D2101000103 = {
+			fileRef = F500946803772D2101000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F500946B03772D2101000103 = {
+			fileRef = F500946903772D2101000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F50094AB0377301301000103 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F500952C0377327001000103 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.exports;
+			path = JackAU.exp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F500952D0377327001000103 = {
+			fileRef = F500952C0377327001000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F500952E0377338B01000103 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.rez;
+			path = JackAU.r;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F500952F0377338B01000103 = {
+			fileRef = F500952E0377338B01000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F50095300377357701000103 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioUnit.framework;
+			path = /System/Library/Frameworks/AudioUnit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F50095410377357701000103 = {
+			fileRef = F50095300377357701000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F53DDADF03787C9501000103 = {
+			fileRef = F50094AB0377301301000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F49F150377B9B101000103 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = PkgInfo;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F5F49F170377BA6D01000103 = {
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				F5F49F180377BA9301000103,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F49F180377BA9301000103 = {
+			fileRef = F5F49F150377B9B101000103;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

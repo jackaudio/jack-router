@@ -1,0 +1,5 @@
+Xquartz
+Terminal
+loginwindow
+Xcode
+SystemUIServer
