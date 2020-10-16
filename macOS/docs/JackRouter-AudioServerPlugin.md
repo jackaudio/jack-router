@@ -33,7 +33,7 @@ Design for the **JackRouter** driver using the **AudioServerPlugin** model (see 
 
 - it means the **JackRouter** driver would need to interact with the JACK Server. In the current implementation this is done using: 1) shared memory for the graph connection state and audio buffers 2) shared activation semaphores 3) sockets to implement server/client RPC. 
 
-    ![Schema JackRouter](Schema-JackRouter.pdf) 
+    ![Schema JackRouter](Schema-JackRouter.png) 
 
 ### JACK OSX implementation
 
