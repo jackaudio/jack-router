@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The **JackRouter** CoreAudio/JACK bridge was using the **AudioHardwarePlugIn ** model, which does not work anymore on recent OSX versions starting on 10.15 Catalina. This document aims to provide some ideas I had  to possibly develop a new version using the  **AudioServerPlugin** model (mail to [Stéphane Letz](mailto: letz@grame.fr)).
+The **JackRouter** CoreAudio/JACK bridge was using the **AudioHardwarePlugIn** model, which does not work anymore on recent OSX versions starting on 10.15 Catalina. This document aims to provide some ideas I had  to possibly develop a new version using the  **AudioServerPlugin** model (mail to [Stéphane Letz](mailto: letz@grame.fr)).
 
 
 ### Design 
@@ -33,7 +33,7 @@ Design for the **JackRouter** driver using the **AudioServerPlugin** model (see 
 
 - it means the **JackRouter** driver would need to interact with the JACK Server. In the current implementation this is done using: 1) shared memory for the graph connection state and audio buffers 2) shared activation semaphores 3) sockets to implement server/client RPC. 
 
-    ![Schema JackRouter.](Schema-JackRouter.pdf) 
+    ![Schema JackRouter](Schema-JackRouter.pdf) 
 
 ### JACK OSX implementation
 
