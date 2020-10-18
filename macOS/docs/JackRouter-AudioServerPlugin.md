@@ -2,7 +2,7 @@
 
 ### Introduction
 
-The **JackRouter** CoreAudio/JACK bridge was using the **AudioHardwarePlugIn** model, which does not work anymore on recent OSX versions starting on 10.15 Catalina. This document aims to provide some ideas I had  to possibly develop a new version using the  **AudioServerPlugin** model (Stéphane Letz, mailto: letz@grame.fr)).
+The **JackRouter** CoreAudio/JACK bridge was using the **AudioHardwarePlugIn** model, which does not work anymore on recent OSX versions starting on 10.15 Catalina. This document aims to provide some ideas I had  to possibly develop a new version using the  **AudioServerPlugin** model (Stéphane Letz, mailto: letz(at)grame.fr).
 
 
 ### Design 
