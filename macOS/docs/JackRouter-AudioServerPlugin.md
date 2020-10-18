@@ -1,17 +1,15 @@
 # Design for a JackRouter driver using the AudioServerPlugin model 
 
-
-
 ### Introduction
 
-The **JackRouter** CoreAudio/JACK bridge was using the **AudioHardwarePlugIn** model, which does not work anymore on recent OSX versions starting on 10.15 Catalina. This document aims to provide some ideas I had  to possibly develop a new version using the  **AudioServerPlugin** model (mail to [Stéphane Letz](mailto: letz@grame.fr)).
+The **JackRouter** CoreAudio/JACK bridge was using the **AudioHardwarePlugIn** model, which does not work anymore on recent OSX versions starting on 10.15 Catalina. This document aims to provide some ideas I had  to possibly develop a new version using the  **AudioServerPlugin** model (Stéphane Letz, mailto: letz@grame.fr)).
 
 
 ### Design 
 
 Design for the **JackRouter** driver using the **AudioServerPlugin** model (see the picture at the end of the document). The point is to allow any mix of CoreAudio/JackRouter running JACK clients with regular JACK clients (that are directly using the JACK API), and **with any kind of graph topology, while preserving synchronous graph activation and no additional latency:**
 
-- the **JACK server** is the daemon process as it is currently designed. It uses a regular CoreAudio driver to receive/send audio buffers, so it is driven by a regular HAL real-time thread (RT). 
+- the **JACK server** is the daemon process as it is currently designed. It uses a regular CoreAudio driver to receive/send audio buffers, so it is driven by a regular HAL real-time thread (RT) 
 
 - in this example we have a graph of three JACK clients: **A** and **B** will be hosted by the **JackRouter** and **C** is running in a separated application that directly access the JACK API (like Ardour [http://ardour.org](http://ardour.org/) for instance)
 
