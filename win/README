@@ -1,7 +1,12 @@
-This folder contains the sources for ASIO/JACK bridge ASIO driver called "JackRouter". The included project is a Microsoft VC++ 6 one. 
-It requires some files (combase.cpp, dllentry.cpp, register.cpp) that are part on the ASIO driver SDK. The produced "JackRouter.dll" file
-has to be registered in the system using the "regsvr32" tool.
+This folder contains the sources for the ASIO/JACK bridge ASIO driver called
+"JackRouter". The included project is a Visual Studio 10 one.
 
-64 bits compilation
-====================
-A Visual Studio 10 project has been added to compile 64 and 32 bits targets.
+It requires the ASIO SDK to be installed in C:\Program Files\ASIOSDK and
+assumes JACK is installed at the default location C:\Program Files\JACK2
+
+The produced "JackRouter.dll" file has to be registered in the system using the
+"regsvr32" tool. The same project can generate 32 and 64 bits binaries.
+
+Starting v1.9.17 the Windows installer for JACK2 also installs the JackRouter
+binaries.
+
