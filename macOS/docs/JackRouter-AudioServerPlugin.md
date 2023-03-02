@@ -15,15 +15,15 @@ Design for the **JackRouter** driver using the **AudioServerPlugin** model (see 
 
 - as usual in the JACK model, each client has a RT thread, and each client has an input synchronisation primitive (for instance a mach semaphore). At a given time, the clients are connected to form a graph. The data dependencies in the graph will establish an activation order: at each audio cycle the A client will be activated first by the **JACK Server Input** , then A will run and activate B, then B will run and activate C, then C will run and activate **JACK Server Output**
 
-- the **JackRouter** driver (using the AudioServerPlugin model) is a **coreaudiod** subprocess. It is a unique process that accessed by all CoreAudio clients that will use it (like A and B in this example):
+- the **JackRouter** driver (using the AudioServerPlugin model) is a **coreaudiod** subprocess. It is a unique process accessed by all CoreAudio clients that will use it (like A and B in this example):
 
   - the HAL allocates and starts the RT thread for each A and B client. 
-  - the  **JACK server Input** HAL audio callback is triggered and copy the input audio buffers to the graph shared memory
+  - the **JACK server Input** HAL audio callback is triggered and copy the input audio buffers to the graph shared memory
   - the RT thread for A would block on A input semaphore, allocated by the JACK client proxy running in the **JackRouter** process. 
-  - when A input semaphore is activated by the **JACK server Input**, the audio cycle for A  starts: input buffers from JACK graph (located in shared memory) are copied into the provided buffer. The A IO callback is run, then generated output buffers are copied in the JACK graph. The B input semaphore is signaled to transfer graph activation to B client, and audio cycle for A  is now finished. 
-  - same logic for B client, which finally signal the C input semaphore. 
+  - when A input semaphore is activated by the **JACK server Input**, the audio cycle for A  starts: input buffers from JACK graph (located in shared memory) are copied into the provided buffer. The A IO callback is run, then generated output buffers are copied in the JACK graph. The B input semaphore is signaled to transfer graph activation to B client, and audio cycle for A is now finished. 
+  - same logic for B client, which finally signals the C input semaphore. 
   - when finished, C clients activates the **JACK server** **Output** which copy the output buffers and returns from the HAL audio callback, and the global JACK server cycle is finished.
-  - Blocking/resuming a separated thread can be done using JACK non-callback API (see https://jackaudio.org/api/group__NonCallbackAPI.html) in particular **jack_cycle_wait/jack_cycle_signal**  functions. 
+  - Blocking/resuming a separated thread can be done using JACK non-callback API (see https://jackaudio.org/api/group__NonCallbackAPI.html) in particular **jack_cycle_wait/jack_cycle_signal** functions. 
 
 -  at each audio cycle, **the JackRouter HAL thread for each client is driven by two activation primitives:** a timer that unlocks the thread at regular interval (the buffer duration) and the JACK input synchronisation primitive. The thread may have to be suspended/resumed twice per cycle. **Could we fake a smaller buffer duration to be sure that the tread is always preferably blocked on the JACK input synchronisation primitive** ?
 
